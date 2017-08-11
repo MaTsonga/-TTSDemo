@@ -15,6 +15,23 @@
 		8731093D1F3D434700990F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8731093B1F3D434700990F08 /* LaunchScreen.storyboard */; };
 		873109481F3D434700990F08 /* ______TTSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873109471F3D434700990F08 /* ______TTSDemoTests.m */; };
 		873109531F3D434800990F08 /* ______TTSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873109521F3D434800990F08 /* ______TTSDemoUITests.m */; };
+		873109721F3D437200990F08 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8731096A1F3D437200990F08 /* .gitignore */; };
+		873109731F3D437200990F08 /* Chinese_Speech_Female.dat in Resources */ = {isa = PBXBuildFile; fileRef = 8731096B1F3D437200990F08 /* Chinese_Speech_Female.dat */; };
+		873109741F3D437200990F08 /* Chinese_Speech_Male.dat in Resources */ = {isa = PBXBuildFile; fileRef = 8731096C1F3D437200990F08 /* Chinese_Speech_Male.dat */; };
+		873109751F3D437200990F08 /* Chinese_Text.dat in Resources */ = {isa = PBXBuildFile; fileRef = 8731096D1F3D437200990F08 /* Chinese_Text.dat */; };
+		873109761F3D437200990F08 /* English_Speech_Female.dat in Resources */ = {isa = PBXBuildFile; fileRef = 8731096E1F3D437200990F08 /* English_Speech_Female.dat */; };
+		873109771F3D437200990F08 /* English_Speech_Male.dat in Resources */ = {isa = PBXBuildFile; fileRef = 8731096F1F3D437200990F08 /* English_Speech_Male.dat */; };
+		873109781F3D437200990F08 /* English_Text.dat in Resources */ = {isa = PBXBuildFile; fileRef = 873109701F3D437200990F08 /* English_Text.dat */; };
+		8731098F1F3D4DB400990F08 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8731097D1F3D446700990F08 /* libstdc++.6.0.9.tbd */; };
+		873109901F3D4DBD00990F08 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8731097F1F3D447000990F08 /* libc++.tbd */; };
+		873109911F3D4DD000990F08 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8731097B1F3D445700990F08 /* libz.1.2.5.tbd */; };
+		873109921F3D4DDA00990F08 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873109811F3D447E00990F08 /* AudioToolbox.framework */; };
+		873109931F3D4DE000990F08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873109831F3D448400990F08 /* UIKit.framework */; };
+		873109941F3D4DEC00990F08 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 873109851F3D449F00990F08 /* libiconv.2.4.0.tbd */; };
+		873109A61F3D4E5300990F08 /* libetts_device_simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873109A51F3D4E5300990F08 /* libetts_device_simulator.a */; };
+		873109A81F3D4F0800990F08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873109A71F3D4F0800990F08 /* SystemConfiguration.framework */; };
+		873109AA1F3D4F1600990F08 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873109A91F3D4F1600990F08 /* CoreTelephony.framework */; };
+		873109AC1F3D4F2200990F08 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873109AB1F3D4F2200990F08 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,30 @@
 		8731094E1F3D434800990F08 /* 百度离线语音TTSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百度离线语音TTSDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873109521F3D434800990F08 /* ______TTSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______TTSDemoUITests.m"; sourceTree = "<group>"; };
 		873109541F3D434800990F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8731096A1F3D437200990F08 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8731096B1F3D437200990F08 /* Chinese_Speech_Female.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chinese_Speech_Female.dat; sourceTree = "<group>"; };
+		8731096C1F3D437200990F08 /* Chinese_Speech_Male.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chinese_Speech_Male.dat; sourceTree = "<group>"; };
+		8731096D1F3D437200990F08 /* Chinese_Text.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chinese_Text.dat; sourceTree = "<group>"; };
+		8731096E1F3D437200990F08 /* English_Speech_Female.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = English_Speech_Female.dat; sourceTree = "<group>"; };
+		8731096F1F3D437200990F08 /* English_Speech_Male.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = English_Speech_Male.dat; sourceTree = "<group>"; };
+		873109701F3D437200990F08 /* English_Text.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = English_Text.dat; sourceTree = "<group>"; };
+		8731097B1F3D445700990F08 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		8731097D1F3D446700990F08 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		8731097F1F3D447000990F08 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		873109811F3D447E00990F08 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		873109831F3D448400990F08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		873109851F3D449F00990F08 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		8731098E1F3D49AD00990F08 /* TTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTS.h; sourceTree = "<group>"; };
+		8731099F1F3D4E5300990F08 /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSBuiltInPlayer.h; sourceTree = "<group>"; };
+		873109A01F3D4E5300990F08 /* BDSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizer.h; sourceTree = "<group>"; };
+		873109A11F3D4E5300990F08 /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
+		873109A21F3D4E5300990F08 /* BDSSpeechSynthesizerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerErrors.h; sourceTree = "<group>"; };
+		873109A31F3D4E5300990F08 /* BDSSpeechSynthesizerParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerParams.h; sourceTree = "<group>"; };
+		873109A41F3D4E5300990F08 /* BDSSynthesizerLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerLogLevel.h; sourceTree = "<group>"; };
+		873109A51F3D4E5300990F08 /* libetts_device_simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libetts_device_simulator.a; sourceTree = "<group>"; };
+		873109A71F3D4F0800990F08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		873109A91F3D4F1600990F08 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		873109AB1F3D4F2200990F08 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873109AC1F3D4F2200990F08 /* AVFoundation.framework in Frameworks */,
+				873109AA1F3D4F1600990F08 /* CoreTelephony.framework in Frameworks */,
+				873109A81F3D4F0800990F08 /* SystemConfiguration.framework in Frameworks */,
+				873109941F3D4DEC00990F08 /* libiconv.2.4.0.tbd in Frameworks */,
+				873109931F3D4DE000990F08 /* UIKit.framework in Frameworks */,
+				873109921F3D4DDA00990F08 /* AudioToolbox.framework in Frameworks */,
+				873109A61F3D4E5300990F08 /* libetts_device_simulator.a in Frameworks */,
+				873109911F3D4DD000990F08 /* libz.1.2.5.tbd in Frameworks */,
+				873109901F3D4DBD00990F08 /* libc++.tbd in Frameworks */,
+				8731098F1F3D4DB400990F08 /* libstdc++.6.0.9.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +136,7 @@
 				873109461F3D434700990F08 /* 百度离线语音TTSDemoTests */,
 				873109511F3D434800990F08 /* 百度离线语音TTSDemoUITests */,
 				8731092B1F3D434600990F08 /* Products */,
+				8731097A1F3D445700990F08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +153,13 @@
 		8731092C1F3D434600990F08 /* 百度离线语音TTSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8731099E1F3D4E5300990F08 /* BDSSpeechSynthesizer_SDK */,
+				873109691F3D437200990F08 /* OfflineTTSDatFiles */,
 				873109301F3D434600990F08 /* AppDelegate.h */,
 				873109311F3D434600990F08 /* AppDelegate.m */,
 				873109331F3D434700990F08 /* ViewController.h */,
 				873109341F3D434700990F08 /* ViewController.m */,
+				8731098E1F3D49AD00990F08 /* TTS.h */,
 				873109361F3D434700990F08 /* Main.storyboard */,
 				873109391F3D434700990F08 /* Assets.xcassets */,
 				8731093B1F3D434700990F08 /* LaunchScreen.storyboard */,
@@ -138,6 +193,50 @@
 				873109541F3D434800990F08 /* Info.plist */,
 			);
 			path = "百度离线语音TTSDemoUITests";
+			sourceTree = "<group>";
+		};
+		873109691F3D437200990F08 /* OfflineTTSDatFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8731096A1F3D437200990F08 /* .gitignore */,
+				8731096B1F3D437200990F08 /* Chinese_Speech_Female.dat */,
+				8731096C1F3D437200990F08 /* Chinese_Speech_Male.dat */,
+				8731096D1F3D437200990F08 /* Chinese_Text.dat */,
+				8731096E1F3D437200990F08 /* English_Speech_Female.dat */,
+				8731096F1F3D437200990F08 /* English_Speech_Male.dat */,
+				873109701F3D437200990F08 /* English_Text.dat */,
+			);
+			path = OfflineTTSDatFiles;
+			sourceTree = "<group>";
+		};
+		8731097A1F3D445700990F08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				873109AB1F3D4F2200990F08 /* AVFoundation.framework */,
+				873109A91F3D4F1600990F08 /* CoreTelephony.framework */,
+				873109A71F3D4F0800990F08 /* SystemConfiguration.framework */,
+				873109851F3D449F00990F08 /* libiconv.2.4.0.tbd */,
+				873109831F3D448400990F08 /* UIKit.framework */,
+				873109811F3D447E00990F08 /* AudioToolbox.framework */,
+				8731097F1F3D447000990F08 /* libc++.tbd */,
+				8731097D1F3D446700990F08 /* libstdc++.6.0.9.tbd */,
+				8731097B1F3D445700990F08 /* libz.1.2.5.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8731099E1F3D4E5300990F08 /* BDSSpeechSynthesizer_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				8731099F1F3D4E5300990F08 /* BDSBuiltInPlayer.h */,
+				873109A01F3D4E5300990F08 /* BDSSpeechSynthesizer.h */,
+				873109A11F3D4E5300990F08 /* BDSSpeechSynthesizerDelegate.h */,
+				873109A21F3D4E5300990F08 /* BDSSpeechSynthesizerErrors.h */,
+				873109A31F3D4E5300990F08 /* BDSSpeechSynthesizerParams.h */,
+				873109A41F3D4E5300990F08 /* BDSSynthesizerLogLevel.h */,
+				873109A51F3D4E5300990F08 /* libetts_device_simulator.a */,
+			);
+			path = BDSSpeechSynthesizer_SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +306,7 @@
 				TargetAttributes = {
 					873109291F3D434600990F08 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QE98A67V65;
 						ProvisioningStyle = Automatic;
 					};
 					873109421F3D434700990F08 = {
@@ -246,9 +346,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873109721F3D437200990F08 /* .gitignore in Resources */,
 				8731093D1F3D434700990F08 /* LaunchScreen.storyboard in Resources */,
+				873109761F3D437200990F08 /* English_Speech_Female.dat in Resources */,
+				873109781F3D437200990F08 /* English_Text.dat in Resources */,
+				873109741F3D437200990F08 /* Chinese_Speech_Male.dat in Resources */,
+				873109771F3D437200990F08 /* English_Speech_Male.dat in Resources */,
 				8731093A1F3D434700990F08 /* Assets.xcassets in Resources */,
 				873109381F3D434700990F08 /* Main.storyboard in Resources */,
+				873109731F3D437200990F08 /* Chinese_Speech_Female.dat in Resources */,
+				873109751F3D437200990F08 /* Chinese_Text.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +531,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QE98A67V65;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百度离线语音TTSDemo/TTS.h";
 				INFOPLIST_FILE = "百度离线语音TTSDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/百度离线语音TTSDemo/BDSSpeechSynthesizer_SDK",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luoxuntiyu.CherrySports2.0.------TTSDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -435,8 +550,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QE98A67V65;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百度离线语音TTSDemo/TTS.h";
 				INFOPLIST_FILE = "百度离线语音TTSDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/百度离线语音TTSDemo/BDSSpeechSynthesizer_SDK",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luoxuntiyu.CherrySports2.0.------TTSDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
